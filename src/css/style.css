@@ -2,3 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bottone{
+    @apply p-4 bg-yellow-800 rounded text-gray-200 text-xl hover:bg-green-400 hover:text-white; /*l'editor non consoce molto bene @apply*/
+}
